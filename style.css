@@ -23,16 +23,16 @@
 }
 
 body {
-    background: url("inmage/fontvert.jpeg");
+    background: url("images/fondvert.jpeg");
     font-family: 'trebuchet MS',Arial,sans-serf;
     color: #181818;
 }
 
 #blocpage {
-    width:900px;``
+    width:900px;
     margin:auto;
 } 
-section h1, footerh1, nav li 
+section h1, footer h1, nav li 
 {
     font-family:Dayrom,serif;
     font-weight:normal;
@@ -45,13 +45,13 @@ header{
     background: url('images/separateur.png') reapeat-x borttom;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;()
+    align-items: flex-end;
 }
 
 #titre_principal
 {
     display: flex;
-    flew-direction: column;
+    flex-direction: column;
 }
 
 #logo {
@@ -66,3 +66,16 @@ header{
     height:60px
 }
 
+header h1 {
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+header h2 {
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+/* Navigztion */
